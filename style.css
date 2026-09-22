@@ -124,3 +124,43 @@ width:120px;
 }
 
 }
+/* 응모 페이지 */
+
+#applyPage{
+    max-width:500px;
+    margin:50px auto;
+}
+
+#applyPage p{
+    line-height:1.6;
+}
+
+#applyPage input[type="text"],
+#applyPage input[type="tel"]{
+    display:block;
+    width:100%;
+    padding:15px;
+    margin:12px 0;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.agree{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    margin:20px 0;
+    font-size:14px;
+}
+
+#applyPage button{
+    margin-top:10px;
+}
+
+#applyBtn:disabled{
+    opacity:0.6;
+    cursor:not-allowed;
+}
