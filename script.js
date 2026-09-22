@@ -19,8 +19,7 @@ const applyMessage = document.getElementById("applyMessage");
 // 나중에 Google Apps Script를 만들고
 // 여기의 주소를 실제 주소로 바꿔주세요.
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxzcFJpdytIY6GkldR76jcMqUwB7fksicectXkWUpaZcHCPnv1FsfesvD6PCTWkM7i3fw/exec
-";
+const GOOGLE_SCRIPT_URL = "";
 
 
 // ==============================
