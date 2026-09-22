@@ -19,15 +19,52 @@
 
     <div id="result" class="hidden">
 
-        <h2>당신이 선택한 카드</h2>
+    <h2>당신이 선택한 카드</h2>
 
-        <div id="resultCards"></div>
+    <div id="resultCards"></div>
 
-        <button id="resetBtn">
-            다시 뽑기
-        </button>
+    <button id="goApplyBtn">
+        🎁 응모하기
+    </button>
 
-    </div>
+    <button id="resetBtn">
+        다시 뽑기
+    </button>
+
+</div>
+
+
+<!-- 응모 페이지 -->
+<div id="applyPage" class="hidden">
+
+    <h2>🎁 이벤트 응모</h2>
+
+    <p>이벤트에 응모하시려면<br>아래 정보를 입력해주세요.</p>
+
+    <input
+        type="text"
+        id="userName"
+        placeholder="이름"
+        autocomplete="name"
+    >
+
+    <input
+        type="tel"
+        id="userPhone"
+        placeholder="연락처"
+        autocomplete="tel"
+    >
+
+    <label class="agree">
+        <input type="checkbox" id="privacyAgree">
+        개인정보 수집·이용에 동의합니다.
+    </label>
+
+    <button id="applyBtn">
+        응모하기
+    </button>
+
+    <p id="applyMessage"></p>
 
 </div>
 
